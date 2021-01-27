@@ -5,6 +5,8 @@ const sequelize = new Sequelize('workoutdb', 'postgres', 'password', {
     dialect: 'postgres'
 });
 
+// i added some comments here to test if this file was truly being ignored. 
+
 sequelize
     .authenticate()
     .then(() => {
